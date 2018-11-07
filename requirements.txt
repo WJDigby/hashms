@@ -1,0 +1,6 @@
+#
+####### hashms requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+requests
+#
