@@ -5,7 +5,7 @@ from os import path, environ
 from subprocess import Popen, PIPE
 import requests
 
-PROCESS_NAME = 'hashcat64'
+PROCESS_NAME = 'hashcat64.bin'
 TEXTBELT_API_KEY = environ.get('TEXTBELT_API_KEY')
 SLACK_URL = environ.get('SLACK_URL')
 
