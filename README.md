@@ -15,7 +15,7 @@ The only non-standard library required is [requests](http://docs.python-requests
 
 ## Use
 
-Run hashms in a screen, tmux, or other terminal session while hashcat is running and provide it the name of your hashcat outfile to monitor. The hashcat64 process name is hardcoded in hashms.py. 
+Run hashms in a screen, tmux, or other terminal session while hashcat is running and provide it the name of your hashcat outfile to monitor. If you are running on a shared machine, or the user running hashms is different than the user running hashcat, make sure hashms has permissions to read the outfile. The hashcat64 process name is hardcoded in hashms.py. 
 
 The Textbelt API and SLack URL values can be set with environmental variables or with a configuration file. Running hashms with command-line parameters -p / --phone-number and/or -s / --slack will look for environmental variables.
 
