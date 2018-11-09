@@ -186,7 +186,7 @@ def main():
                     print('[*] Notification limit reached. Happy hunting.')
                     exit()
                 starting_outfile = current_outfile
-                print('[*] Sent {} out of {} notifications.'.format(i, notification_count))
+                print('[*] Sent {} out of {} notifications.'.format(i - 1, notification_count))
             print('[*] Sleeping for {} minutes...'.format(check_interval))
             time.sleep(float(check_interval) * 60)
     except KeyboardInterrupt:
