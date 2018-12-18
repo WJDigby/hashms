@@ -41,7 +41,7 @@ Check the file hashes.out hourly. If additional hashes have been cracked, send a
     
 Check the file hashes.out every 10 minutes. If additional hashes have been cracked, send a Slack message based on the contents of a configuration file (to send only Slack messages when using a configuration file, only fill out the Slack options. Likewise for SMS).
 
-    python3 hashms.oy -o hashes.out -i 10 -c hashms.conf
+    python3 hashms.py -o hashes.out -i 10 -c hashms.conf
 
 
 
